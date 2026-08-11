@@ -66,8 +66,8 @@ class Billing
 public:
     static float generateBill(float units)
     {
-        float rate = 18.0;
-        return units * rate;
+        float rate = 12.0;
+        return units * rate; 
     }
 };
 
@@ -266,7 +266,7 @@ void evMenu()
             cout << "\n========== Registered EVs ==========\n";
             if (users.empty())
             {
-                cout << "No EVs Registered Yet!\n";
+                cout << "No any EVs Registered Yet!\n";
             }
             else
             {
